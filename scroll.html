@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap scrollspy</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <!--
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+-->
+    <script>
+
+    </script>
+</head>
+<style type="text/css">
+    section {
+        width: 100vw;
+        height: 100vh;
+    }
+</style>
+
+<body data-spy="scroll" data-target=".navbar">
+    <div class="container-fluid">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <ul class="nav navbar-nav">
+                <li><a href="#s1">RedSection</a></li>
+                <li><a href="#s2">BlueSection</a></li>
+                <li><a href="#s3">GreenSection</a></li>
+            </ul>
+        </nav>
+        <section id="s1" style="background: red;">
+            <br>
+            <br>
+        <h1>hello world</h1>
+        </section>
+        <section id="s2" style="background: blue;">
+                <h1 class="animated 1 rubberBand delay-2s">Example</h1>
+        </section>
+        <section id="s3" style="background: green;"></section>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+.a-links {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+.a-links:hover {
+    text-decoration: underline;
+    color: lightgrey;
+}
+p{
+    color: #fefde1;
+}
+
+.border {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+  }
+  
